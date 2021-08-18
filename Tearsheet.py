@@ -25,7 +25,7 @@ df.dropna(axis=1, thresh=4500, inplace=True)
 df.set_index('rank',inplace=True)
 df.drop(['inc5000companyId', 'inc5000yearId', 'ifc_filelocation', 'ifc_ifmid',
          'ifc_business_model','ifc_ifiid', 'ifc_verified_companyflag',
-         'raw_revenue', 'yrs_on_list', 'zip_code', 'article'], axis = 1, inplace=True)
+         'raw_revenue', 'yrs_on_list', 'zipcode', 'article'], axis = 1, inplace=True)
          
 #myIndustry accepted values
 set(df.industry)
