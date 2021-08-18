@@ -1,7 +1,7 @@
 import requests
 import json
 import pandas as pd
-from pandas import json_normalize
+from pandas.io.json import json_normalize
 pd.options.display.max_rows = 20
 pd.options.display.max_columns = 12
 
