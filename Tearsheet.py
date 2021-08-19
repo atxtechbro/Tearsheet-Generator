@@ -48,7 +48,7 @@ def findMyNextOpportunity(myIndustry, myMetro=None):
     else:
         return tearsheet
     
-    print(repr(tearsheet))
+    #print(repr(tearsheet)) uncomment for command line output
     return tearsheet
     
 #the following call to 'findMyNextOpportunity' function will retrieve just 20 high value employment prospects
